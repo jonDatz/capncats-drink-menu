@@ -39,9 +39,9 @@ const Layout = ({ children }) => {
             marginTop: `2rem`,
           }}
         >
-          © {new Date().getFullYear()}, Built with
+          © {new Date().getFullYear()}, Came from the
           {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
+          <a href="https://www.allmenus.com/nj/west-deptford/817605-capn-cats-clam-bar-tavern/menu/" target="_blank">Sea</a>
         </footer>
       </div>
     </>
