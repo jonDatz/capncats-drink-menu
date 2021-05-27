@@ -41,7 +41,7 @@ const Layout = ({ children }) => {
         >
           © {new Date().getFullYear()}, Came from the
           {` `}
-          <a href="https://www.allmenus.com/nj/west-deptford/817605-capn-cats-clam-bar-tavern/menu/" target="_blank">Sea</a>
+          <a href="https://www.facebook.com/Capn-Cat-Clam-Bar-138051596269812" target="_blank" rel="noreferrer">Sea</a>
         </footer>
       </div>
     </>
