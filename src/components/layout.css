@@ -597,3 +597,8 @@ pre tt:after {
 }
 
 
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Pirata+One&display=swap');
+.header-font{
+  font-family: 'Chelsea Market', cursive;
+  font-family: 'Pirata One', cursive;
+ }
