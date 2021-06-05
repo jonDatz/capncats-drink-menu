@@ -44,10 +44,16 @@ function a11yProps(index) {
 const useStyles = makeStyles(theme => ({
   root: {
     flexGrow: 1,
-    backgroundColor: theme.palette.background.paper,
+    backgroundColor: theme.palette.background.paper,},
+  highlights:{
+    backgroundColor: "#2f2f2f",
+    inkBarStyle: '#e8bd51'
+  }
 // This changes the text under the bar
-  },
-}))
+
+  }
+
+))
 
 
 export default function FullWidthTabs() {
@@ -64,8 +70,10 @@ export default function FullWidthTabs() {
 
   return (
     <div className={classes.root}>
-      <AppBar position="static">
-        <Tabs
+      <AppBar className={classes.highlights} position="static">
+        <Tabs TabIndicatorProps={{
+           style: { background: '#e8bd51'} //this changed the tabindicator color.
+         }}
           value={value}
           onChange={handleChange}
           aria-label="header"
