@@ -38,11 +38,12 @@ const Layout = ({ children }) => {
         <footer
           style={{
             marginTop: `2rem`,
+            bottom: 0
           }}
         >
-          © {new Date().getFullYear()}, Came from the
+          © {new Date().getFullYear()}, Follow us on
           {` `}
-          <a href="https://www.facebook.com/Capn-Cat-Clam-Bar-138051596269812" target="_blank" rel="noreferrer">Sea</a>
+          <a href="https://www.facebook.com/Capn-Cat-Clam-Bar-138051596269812" target="_blank" rel="noreferrer">Facebook</a>
         </footer>
 
 
