@@ -603,3 +603,7 @@ pre tt:after {
   font-family: 'Chelsea Market', cursive;
   font-family: 'Pirata One', cursive;
  }
+
+ .PrivateTabIndicator-colorSecondary-4 {
+  background-color: #e8bd51;
+}

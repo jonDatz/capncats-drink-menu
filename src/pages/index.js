@@ -10,7 +10,7 @@ const IndexPage = () => (
 
   <Layout>
     <Seo title="Home" />
-    <DrinkNavigation/>
+    <DrinkNavigation />
     <p></p>
 
     <p>
