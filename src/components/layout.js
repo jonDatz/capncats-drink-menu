@@ -32,9 +32,10 @@ const Layout = ({ children }) => {
           maxWidth: 960,
           padding: `0 1.0875rem 1.45rem`,
         }}
-      >
+      >        
+      <DrinkNavigation></DrinkNavigation> 
         <main>{children}</main>
-        <DrinkNavigation></DrinkNavigation>        
+       
         <footer
           style={{
             marginTop: `2rem`,

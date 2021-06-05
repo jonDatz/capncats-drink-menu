@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@material-ui/core": "^4.11.4",
     "@material-ui/lab": "^4.0.0-alpha.58",
     "autoprefixer": "^10.2.6",
     "contentful": "^8.3.7",
