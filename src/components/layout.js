@@ -29,24 +29,27 @@ const Layout = ({ children }) => {
         style={{
           margin: `0 auto`,
           maxWidth: 960,
- /*         padding: `0 1.0875rem 1.45rem`, */
+          /*         padding: `0 1.0875rem 1.45rem`, */
         }}
-      >        
- 
+      >
         <main>{children}</main>
-       
+
         <footer
           style={{
             marginTop: `2rem`,
-            bottom: '0px',
+            bottom: "0px",
           }}
         >
           © {new Date().getFullYear()}, Follow us on
           {` `}
-          <a href="https://www.facebook.com/Capn-Cat-Clam-Bar-138051596269812" target="_blank" rel="noreferrer">Facebook</a>
+          <a
+            href="https://www.facebook.com/Capn-Cat-Clam-Bar-138051596269812"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Facebook
+          </a>
         </footer>
-
-
       </div>
     </>
   )
